@@ -54,17 +54,74 @@ font-family: "Bebas Neue", sans-serif; */
   color: rgb(255, 255, 255);
   font-size: 25px;
 }
+
+
 .navbar .nav-item a {
   color: rgb(0, 0, 0);
-  font-size: 15px;
+  font-size: 17px;
 
   font-family: "Plus Jakarta Sans", sans-serif;
-}
+} 
+
+/* .navbar .nav-item a {
+
+
+
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  position: relative;
+  transition: all 0.3s ease;
+} */
+
 
 .navbar .nav-item a:hover {
   color: rgb(255, 255, 255);
   transition: 0.8s;
 }
+
+.navbar .nav-item a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 24px;
+color: #000000;
+  transition: width 0.3s ease;}
+
+
+.navbar .nav-item a:hover::afte {
+  width: 100%;
+} *
+
+/* Active State */
+.navbar .nav-item a.active {
+  color: #3a86ff;
+  font-weight: 600;
+}
+
+.navbar .nav-item a.active::after {
+  width: 100%;
+}
+
+/* Responsive Adjustments */
+/* @media (max-width: 768px) {
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+  
+  .navbar .nav-item {
+    margin: 0 0.5rem;
+  }
+  
+  .navbar .nav-item a {
+    font-size: 14px;
+  }
+} */
 
 .Selamat {
   color: rgb(255, 255, 255);
@@ -83,9 +140,46 @@ font-family: "Bebas Neue", sans-serif; */
 }
 
 /*  */
+
+.SU {
+  font-family: "Boldonse", system-ui;
+  font-weight: 700;
+  color: white; /* Warna teks utama */
+  text-shadow: 10px ;
+  /* Efek stroke/border hitam */
+  text-shadow: 
+    1px 1px 0 #000,
+     1px 1px 0 #000,
+    1px 1px 0 #000,
+     1px 0px 0 #000;
+  
+  /* Alternatif efek stroke yang lebih halus */
+  /* -webkit-text-stroke: 1.5px #000;
+     text-stroke: 1.5px #000; */
+  
+  /* Efek bayangan hitam */
+
+  
+  /* Padding untuk stroke */
+  padding: 0 2px;
+}
+
+/* ------------------------------------- */
+
 .navbar  .Oil {
   color: rgb(230, 195, 0);
-  text-shadow: 10px;
+  text-shadow: 0px ;
+  font-family: "Boldonse", system-ui;
+   text-shadow: 
+    /* -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;  */
+       1px 1px 0 #000,
+     1px 1px 0 #000,
+    1px 1px 0 #000,
+     1px 0px 0 #000;
+  
 }
 html {
   background-color: rgba(151, 151, 151, 0.425);
