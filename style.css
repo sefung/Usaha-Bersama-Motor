@@ -94,9 +94,9 @@ color: #000000;
   transition: width 0.3s ease;}
 
 
-.navbar .nav-item a:hover::afte {
+.navbar .nav-item a:hover::after {
   width: 100%;
-} *
+} 
 
 /* Active State */
 .navbar .nav-item a.active {
@@ -142,6 +142,7 @@ color: #000000;
 /*  */
 
 .SU {
+  font-size: 20px;
   font-family: "Boldonse", system-ui;
   font-weight: 700;
   color: white; /* Warna teks utama */
@@ -167,6 +168,8 @@ color: #000000;
 /* ------------------------------------- */
 
 .navbar  .Oil {
+
+  font-size: 20px;
   color: rgb(230, 195, 0);
   text-shadow: 0px ;
   font-family: "Boldonse", system-ui;
