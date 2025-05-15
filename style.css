@@ -117,7 +117,7 @@ color: #000000;
 }
 
 /* Responsive Adjustments */
-/* @media (max-width: 768px) {
+ @media (max-width: 768px) {
   .navbar {
     padding: 0.8rem 1rem;
   }
@@ -129,7 +129,7 @@ color: #000000;
   .navbar .nav-item a {
     font-size: 14px;
   }
-} */
+} 
 
 .Selamat {
   color: rgb(255, 255, 255);
