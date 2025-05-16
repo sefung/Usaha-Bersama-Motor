@@ -86,8 +86,8 @@ font-family: "Bebas Neue", sans-serif; */
 
 
 .navbar .nav-item a:hover {
-  color: rgb(0, 60, 255);
-  transition: 0.8s;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
   
 }
 
@@ -108,7 +108,7 @@ color: #000000;
 
 /* Active State */
 .navbar .nav-item a.active {
-  color: #3a86ff;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -271,4 +271,9 @@ html {
 margin: 0 15px;
 }
 
- 
+ .nav-item button:hover {
+  opacity:90%;
+  background-color: rgb(153, 153, 153);
+
+ } 
+
